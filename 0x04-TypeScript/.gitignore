@@ -1,0 +1,7 @@
+# Never commit node_modules or keys
+node_modules/
+*.pem
+*.key
+*.pub
+id_rsa
+id_ed25519
