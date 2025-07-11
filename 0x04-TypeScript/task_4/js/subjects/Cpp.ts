@@ -1,7 +1,8 @@
-/// <reference path="Subject.ts" />
-/// <reference path="Teacher.ts" />
+/// <reference path="./Subject.ts" />
+/// <reference path="./Teacher.ts" />
 
 namespace Subjects {
+  // Declaration merging: extending the existing Teacher interface
   export interface Teacher {
     experienceTeachingC?: number;
   }

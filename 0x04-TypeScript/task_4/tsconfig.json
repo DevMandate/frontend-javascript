@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "none",
+    "outFile": "./dist/main.js",           // <--- THIS IS THE FIX
+    "rootDir": "./js",
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["./js/**/*"]
+}
