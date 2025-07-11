@@ -33,7 +33,9 @@ const printTeacher: printTeacherFunction = (firstName, lastName) => {
 
 console.log(printTeacher('John', 'Doe'));
 
-
+//=========================================//
+// Class and Interface
+//=========================================//
 
 // Class Interface
 interface StudentClassInterface {
@@ -61,3 +63,4 @@ class StudentClass implements StudentClassInterface {
 const student = new StudentClass("Caleb", "Wafula");
 console.log(student.displayName());
 console.log(student.workOnHomework());
+
